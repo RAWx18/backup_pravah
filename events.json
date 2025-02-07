@@ -5,10 +5,10 @@
     "type": "festival",
     "gamma": 0.80,
     "lambda": 0.10,
-    "start_time": "2025-11-04T18:00:00",
-    "end_time": "2025-11-04T23:00:00",
+    "start_time": "2025-11-01T18:00:00",
+    "end_time": "2025-11-03T23:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Festival of Lights celebrated with fireworks, lights, and family gatherings."
+    "description": "Festival of Lights celebrated over several evenings with fireworks, rituals, and family gatherings."
   },
   {
     "id": "event_republic_day_2025",
@@ -16,8 +16,8 @@
     "type": "national_holiday",
     "gamma": 0.65,
     "lambda": 0.08,
-    "start_time": "2025-01-26T07:00:00",
-    "end_time": "2025-01-26T12:00:00",
+    "start_time": "2025-01-26T05:00:00",
+    "end_time": "2025-01-26T13:00:00",
     "location": { "lat": 28.6129, "lon": 77.2295 },
     "description": "National celebration with parades and cultural programs held in central New Delhi."
   },
@@ -27,8 +27,8 @@
     "type": "festival",
     "gamma": 0.75,
     "lambda": 0.10,
-    "start_time": "2025-03-28T10:00:00",
-    "end_time": "2025-03-28T18:00:00",
+    "start_time": "2025-03-18T08:00:00",
+    "end_time": "2025-03-18T18:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
     "description": "Festival of Colors celebrated with water, colored powders, and community festivities."
   },
@@ -38,8 +38,8 @@
     "type": "festival",
     "gamma": 0.70,
     "lambda": 0.10,
-    "start_time": "2025-06-26T12:00:00",
-    "end_time": "2025-06-26T20:00:00",
+    "start_time": "2025-06-02T12:00:00",
+    "end_time": "2025-06-02T20:00:00",
     "location": { "lat": 28.6140, "lon": 77.2080 },
     "description": "Celebration marking the end of Ramadan with prayers, feasts, and community gatherings."
   },
@@ -49,10 +49,10 @@
     "type": "festival",
     "gamma": 0.70,
     "lambda": 0.10,
-    "start_time": "2025-10-06T10:00:00",
-    "end_time": "2025-10-06T22:00:00",
+    "start_time": "2025-10-07T10:00:00",
+    "end_time": "2025-10-11T22:00:00",
     "location": { "lat": 28.6142, "lon": 77.2075 },
-    "description": "Cultural festival celebrating the goddess Durga with elaborate rituals and community events."
+    "description": "Elaborate celebration over several days honoring Goddess Durga with rituals, art, and community events."
   },
   {
     "id": "event_independence_day_2025",
@@ -60,7 +60,7 @@
     "type": "national_holiday",
     "gamma": 0.65,
     "lambda": 0.08,
-    "start_time": "2025-08-15T08:00:00",
+    "start_time": "2025-08-15T07:00:00",
     "end_time": "2025-08-15T11:00:00",
     "location": { "lat": 28.6135, "lon": 77.2095 },
     "description": "Celebration of India’s independence with flag hoisting and parades."
@@ -71,10 +71,10 @@
     "type": "festival",
     "gamma": 0.60,
     "lambda": 0.10,
-    "start_time": "2025-12-25T17:00:00",
-    "end_time": "2025-12-25T22:00:00",
+    "start_time": "2025-12-25T10:00:00",
+    "end_time": "2025-12-26T22:00:00",
     "location": { "lat": 28.6140, "lon": 77.2100 },
-    "description": "International celebration with decorations, church services, and community events."
+    "description": "International celebration featuring decorations, church services, and community events over a couple of days."
   },
   {
     "id": "event_guru_nanak_jayanti_2025",
@@ -82,10 +82,10 @@
     "type": "festival",
     "gamma": 0.65,
     "lambda": 0.10,
-    "start_time": "2025-11-28T10:00:00",
-    "end_time": "2025-11-28T20:00:00",
+    "start_time": "2025-11-29T10:00:00",
+    "end_time": "2025-11-29T20:00:00",
     "location": { "lat": 28.6137, "lon": 77.2093 },
-    "description": "Religious festival celebrating the birth of Guru Nanak Dev Ji."
+    "description": "Religious festival celebrating the birth of Guru Nanak Dev Ji with prayers and processions."
   },
   {
     "id": "event_kumbh_mela_2025",
@@ -93,10 +93,10 @@
     "type": "festival",
     "gamma": 1.00,
     "lambda": 0.15,
-    "start_time": "2025-01-10T08:00:00",
-    "end_time": "2025-01-10T20:00:00",
+    "start_time": "2025-01-15T08:00:00",
+    "end_time": "2025-01-20T20:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Massive religious gathering attracting millions of pilgrims."
+    "description": "A massive religious gathering attracting thousands of pilgrims over several days."
   },
   {
     "id": "event_dussehra_2025",
@@ -104,10 +104,10 @@
     "type": "festival",
     "gamma": 0.70,
     "lambda": 0.10,
-    "start_time": "2025-10-14T18:00:00",
-    "end_time": "2025-10-14T23:00:00",
+    "start_time": "2025-10-03T18:00:00",
+    "end_time": "2025-10-03T23:00:00",
     "location": { "lat": 28.6138, "lon": 77.2092 },
-    "description": "Celebration marking the victory of good over evil with dramatic performances."
+    "description": "Celebration marking the victory of good over evil with dramatic performances and effigy burning."
   },
   {
     "id": "event_phool_walo_ki_sair_2025",
@@ -118,7 +118,7 @@
     "start_time": "2025-02-15T09:00:00",
     "end_time": "2025-02-15T18:00:00",
     "location": { "lat": 28.6125, "lon": 77.2085 },
-    "description": "A floral festival showcasing flower displays and cultural programs in Delhi."
+    "description": "A one-day floral festival showcasing elaborate flower displays and cultural programs."
   },
   {
     "id": "event_qutub_festival_2025",
@@ -126,8 +126,8 @@
     "type": "festival",
     "gamma": 0.60,
     "lambda": 0.10,
-    "start_time": "2025-03-15T16:00:00",
-    "end_time": "2025-03-15T22:00:00",
+    "start_time": "2025-03-16T16:00:00",
+    "end_time": "2025-03-16T22:00:00",
     "location": { "lat": 28.5245, "lon": 77.1854 },
     "description": "Cultural and arts festival held at the historic Qutub Minar complex."
   },
@@ -137,10 +137,10 @@
     "type": "festival",
     "gamma": 0.50,
     "lambda": 0.08,
-    "start_time": "2025-07-01T10:00:00",
-    "end_time": "2025-07-01T20:00:00",
+    "start_time": "2025-07-15T10:00:00",
+    "end_time": "2025-07-15T20:00:00",
     "location": { "lat": 28.6141, "lon": 77.2091 },
-    "description": "Celebration of mangoes with tastings, contests, and cultural events."
+    "description": "A celebration of mangoes with tastings, contests, and cultural events in a single day."
   },
   {
     "id": "event_janmashtami_2025",
@@ -148,10 +148,10 @@
     "type": "festival",
     "gamma": 0.70,
     "lambda": 0.10,
-    "start_time": "2025-08-12T18:00:00",
-    "end_time": "2025-08-12T23:00:00",
+    "start_time": "2025-08-14T18:00:00",
+    "end_time": "2025-08-14T23:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Festival celebrating the birth of Lord Krishna with devotional activities."
+    "description": "Festival celebrating the birth of Lord Krishna with devotional activities and processions."
   },
   {
     "id": "event_lohri_2025",
@@ -173,7 +173,7 @@
     "start_time": "2025-04-20T12:00:00",
     "end_time": "2025-04-20T22:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "A food festival showcasing local and international culinary delights."
+    "description": "A food festival showcasing a variety of local and international culinary delights in a single day."
   },
   {
     "id": "event_nasvi_street_food_fest_2025",
@@ -184,7 +184,7 @@
     "start_time": "2025-05-05T11:00:00",
     "end_time": "2025-05-05T21:00:00",
     "location": { "lat": 28.6142, "lon": 77.2088 },
-    "description": "Popular street food festival featuring diverse local flavors."
+    "description": "Popular street food festival featuring diverse local flavors throughout the day."
   },
   {
     "id": "event_asian_hawkers_market_2025",
@@ -195,7 +195,7 @@
     "start_time": "2025-09-10T10:00:00",
     "end_time": "2025-09-10T18:00:00",
     "location": { "lat": 28.6137, "lon": 77.2092 },
-    "description": "A vibrant market event with street food vendors and live cultural performances."
+    "description": "A vibrant market event with street food vendors and live cultural performances in a single day."
   },
   {
     "id": "event_great_indian_food_festival_2025",
@@ -206,7 +206,7 @@
     "start_time": "2025-11-05T12:00:00",
     "end_time": "2025-11-05T23:00:00",
     "location": { "lat": 28.6140, "lon": 77.2090 },
-    "description": "A large-scale food festival celebrating the diversity of Indian cuisine."
+    "description": "A large-scale food festival celebrating the diversity of Indian cuisine over several hours."
   },
   {
     "id": "event_the_palate_fest_2025",
@@ -217,7 +217,7 @@
     "start_time": "2025-03-22T12:00:00",
     "end_time": "2025-03-22T22:00:00",
     "location": { "lat": 28.6141, "lon": 77.2091 },
-    "description": "Gastronomic festival highlighting innovative culinary trends."
+    "description": "Gastronomic festival highlighting innovative culinary trends in a day-long event."
   },
   {
     "id": "event_london_market_2025",
@@ -228,7 +228,7 @@
     "start_time": "2025-06-15T10:00:00",
     "end_time": "2025-06-15T19:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "A themed market event inspired by London's vibrant street market culture."
+    "description": "A themed market event inspired by London’s vibrant street market culture."
   },
   {
     "id": "event_wedding_asia_2025",
@@ -239,7 +239,7 @@
     "start_time": "2025-08-20T10:00:00",
     "end_time": "2025-08-20T20:00:00",
     "location": { "lat": 28.6143, "lon": 77.2095 },
-    "description": "Exhibition showcasing wedding trends and services from across Asia."
+    "description": "Exhibition showcasing wedding trends and services from across Asia over one day."
   },
   {
     "id": "event_dastkar_nature_bazaar_2025",
@@ -250,7 +250,7 @@
     "start_time": "2025-10-05T10:00:00",
     "end_time": "2025-10-05T19:00:00",
     "location": { "lat": 28.6138, "lon": 77.2090 },
-    "description": "Bazaar celebrating traditional crafts, nature, and artisanal products."
+    "description": "A bazaar celebrating traditional crafts, nature, and artisanal products in a single-day event."
   },
   {
     "id": "event_the_fairytales_2025",
@@ -261,7 +261,7 @@
     "start_time": "2025-04-10T16:00:00",
     "end_time": "2025-04-10T22:00:00",
     "location": { "lat": 28.6140, "lon": 77.2090 },
-    "description": "A themed festival featuring fairy tale-inspired performances and installations."
+    "description": "A themed festival featuring fairy tale-inspired performances and installations over one evening."
   },
   {
     "id": "event_new_delhi_world_book_fair_2025",
@@ -270,9 +270,9 @@
     "gamma": 0.65,
     "lambda": 0.10,
     "start_time": "2025-02-20T09:00:00",
-    "end_time": "2025-02-20T18:00:00",
+    "end_time": "2025-02-22T18:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "International book fair attracting authors, publishers, and readers."
+    "description": "An international book fair spanning multiple days, attracting authors, publishers, and readers."
   },
   {
     "id": "event_delhi_flower_show_2025",
@@ -283,7 +283,7 @@
     "start_time": "2025-03-05T10:00:00",
     "end_time": "2025-03-05T17:00:00",
     "location": { "lat": 28.6140, "lon": 77.2090 },
-    "description": "A flower show exhibiting a variety of ornamental and exotic flora."
+    "description": "An exhibition displaying a variety of ornamental and exotic flora during daytime hours."
   },
   {
     "id": "event_comic_con_delhi_2025",
@@ -292,9 +292,9 @@
     "gamma": 0.70,
     "lambda": 0.10,
     "start_time": "2025-09-20T10:00:00",
-    "end_time": "2025-09-20T20:00:00",
+    "end_time": "2025-09-22T20:00:00",
     "location": { "lat": 28.6142, "lon": 77.2090 },
-    "description": "Convention for comic book enthusiasts and pop culture fans."
+    "description": "A multi-day convention for comic book enthusiasts and pop culture fans."
   },
   {
     "id": "event_jazz_festival_2025",
@@ -305,7 +305,7 @@
     "start_time": "2025-12-05T16:00:00",
     "end_time": "2025-12-05T23:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Music festival featuring jazz performances by local and international artists."
+    "description": "Music festival featuring jazz performances by local and international artists in the evening."
   },
   {
     "id": "event_kite_flying_festival_2025",
@@ -316,7 +316,7 @@
     "start_time": "2025-01-14T10:00:00",
     "end_time": "2025-01-14T17:00:00",
     "location": { "lat": 28.6140, "lon": 77.2090 },
-    "description": "Festive event with kite flying competitions and community activities."
+    "description": "A festive event with kite flying competitions and community activities held during the day."
   },
   {
     "id": "event_lol_flea_dehi_edition_2025",
@@ -327,7 +327,7 @@
     "start_time": "2025-07-15T10:00:00",
     "end_time": "2025-07-15T18:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Flea market event featuring vintage and second-hand items with a quirky twist."
+    "description": "A quirky flea market event featuring vintage and second-hand items."
   },
   {
     "id": "event_horn_ok_please_street_food_fest_2025",
@@ -338,7 +338,7 @@
     "start_time": "2025-03-30T12:00:00",
     "end_time": "2025-03-30T22:00:00",
     "location": { "lat": 28.6141, "lon": 77.2091 },
-    "description": "Lively street food festival showcasing a range of local delicacies."
+    "description": "A lively street food festival showcasing a range of local delicacies over an evening."
   },
   {
     "id": "event_maha_shivaratri_2025",
@@ -349,18 +349,18 @@
     "start_time": "2025-03-05T18:00:00",
     "end_time": "2025-03-05T23:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Religious festival dedicated to Lord Shiva with night-long vigils and prayers."
+    "description": "A night-long religious observance dedicated to Lord Shiva with vigils and prayers."
   },
   {
     "id": "event_eid_al_adha_2025",
-    "name": "Eid al Adha",
+    "name": "Eid al-Adha",
     "type": "festival",
     "gamma": 0.70,
     "lambda": 0.10,
     "start_time": "2025-08-10T12:00:00",
     "end_time": "2025-08-10T20:00:00",
     "location": { "lat": 28.6140, "lon": 77.2090 },
-    "description": "Islamic festival commemorating the willingness of Ibrahim to sacrifice his son."
+    "description": "Islamic festival commemorating the willingness of Ibrahim to sacrifice his son, observed on a single day."
   },
   {
     "id": "event_baishakhi_2025",
@@ -371,7 +371,7 @@
     "start_time": "2025-04-14T10:00:00",
     "end_time": "2025-04-14T18:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Sikh harvest festival celebrated with community fairs and cultural performances."
+    "description": "Sikh harvest festival celebrated with fairs and cultural performances throughout the day."
   },
   {
     "id": "event_trade_fair_2025",
@@ -382,7 +382,7 @@
     "start_time": "2025-11-15T09:00:00",
     "end_time": "2025-11-15T18:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Large-scale trade fair showcasing products and services from various industries."
+    "description": "A large-scale trade fair showcasing products and services from various industries."
   },
   {
     "id": "event_hazirat_nizamuddin_shrine_2025",
@@ -393,7 +393,7 @@
     "start_time": "2025-12-01T10:00:00",
     "end_time": "2025-12-01T17:00:00",
     "location": { "lat": 28.6140, "lon": 77.2100 },
-    "description": "Religious gathering and event at the Hazirat Nizamuddin shrine."
+    "description": "A religious gathering at the Hazirat Nizamuddin shrine held during daytime hours."
   },
   {
     "id": "event_delhi_photo_festival_2025",
@@ -402,9 +402,9 @@
     "gamma": 0.60,
     "lambda": 0.10,
     "start_time": "2025-05-10T11:00:00",
-    "end_time": "2025-05-10T19:00:00",
+    "end_time": "2025-05-12T19:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Exhibition showcasing the work of local and international photographers."
+    "description": "A multi-day exhibition showcasing the work of local and international photographers."
   },
   {
     "id": "event_bharat_rang_mahotsav_2025",
@@ -413,9 +413,9 @@
     "gamma": 0.65,
     "lambda": 0.10,
     "start_time": "2025-11-20T10:00:00",
-    "end_time": "2025-11-20T22:00:00",
+    "end_time": "2025-11-22T22:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "A multi-genre cultural festival celebrating Indian art and performance."
+    "description": "A multi-day cultural festival celebrating Indian art and performance."
   },
   {
     "id": "event_sabrang_festival_2025",
@@ -426,7 +426,7 @@
     "start_time": "2025-02-28T10:00:00",
     "end_time": "2025-02-28T21:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "A colorful cultural festival showcasing art, music, and dance."
+    "description": "A colorful cultural festival showcasing art, music, and dance over one day."
   },
   {
     "id": "event_jeevika_film_festival_2025",
@@ -435,9 +435,9 @@
     "gamma": 0.70,
     "lambda": 0.10,
     "start_time": "2025-06-05T12:00:00",
-    "end_time": "2025-06-05T22:00:00",
+    "end_time": "2025-06-07T22:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Film festival focusing on social issues and independent cinema."
+    "description": "A multi-day film festival focusing on social issues and independent cinema."
   },
   {
     "id": "event_jashn_e_rekhta_2025",
@@ -448,7 +448,7 @@
     "start_time": "2025-02-25T15:00:00",
     "end_time": "2025-02-25T22:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Celebration of Urdu language and culture through literary events and performances."
+    "description": "A celebration of Urdu language and culture through literary events and performances held in the evening."
   },
   {
     "id": "event_jahan_e_khusrau_2025",
@@ -459,7 +459,7 @@
     "start_time": "2025-03-18T10:00:00",
     "end_time": "2025-03-18T20:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Cultural festival celebrating the legacy of poet Amir Khusrau."
+    "description": "Cultural festival celebrating the legacy of poet Amir Khusrau in a one-day event."
   },
   {
     "id": "event_ram_navami_2025",
@@ -470,6 +470,6 @@
     "start_time": "2025-04-21T10:00:00",
     "end_time": "2025-04-21T20:00:00",
     "location": { "lat": 28.6139, "lon": 77.2090 },
-    "description": "Religious festival celebrating the birth of Lord Rama."
+    "description": "Religious festival celebrating the birth of Lord Rama with prayers and processions."
   }
 ]
