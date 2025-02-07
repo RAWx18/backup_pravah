@@ -10,14 +10,62 @@
     },
     "capacity_adjustment": 1.0
   },
+  "category_events": {
+    "Education": {
+      "exam_season": { "beta": 0.25, "lambda": 0.10 },
+      "holiday_break": { "beta": -0.15, "lambda": 0.05 },
+      "admission_period": { "beta": 0.20, "lambda": 0.08 }
+    },
+    "Healthcare": {
+      "flu_outbreak": { "beta": 0.30, "lambda": 0.12 },
+      "vaccination_drive": { "beta": 0.20, "lambda": 0.08 },
+      "health_awareness_campaign": { "beta": 0.15, "lambda": 0.10 }
+    },
+    "Retail": {
+      "sale_event": { "beta": 0.35, "lambda": 0.10 },
+      "end_of_season": { "beta": 0.20, "lambda": 0.08 },
+      "new_store_opening": { "beta": 0.25, "lambda": 0.07 }
+    },
+    "Government": {
+      "tax_filing_season": { "beta": 0.40, "lambda": 0.10 },
+      "election_campaign": { "beta": 0.50, "lambda": 0.12 },
+      "policy_announcement": { "beta": 0.30, "lambda": 0.08 }
+    },
+    "Entertainment": {
+      "concert": { "beta": 0.45, "lambda": 0.15 },
+      "movie_release": { "beta": 0.30, "lambda": 0.10 },
+      "theater_festival": { "beta": 0.35, "lambda": 0.12 }
+    },
+    "Religious": {
+      "festive_season": { "beta": 0.35, "lambda": 0.10 },
+      "pilgrimage": { "beta": 0.50, "lambda": 0.12 },
+      "local_festival": { "beta": 0.30, "lambda": 0.09 }
+    },
+    "Transport": {
+      "rush_hour": { "beta": 0.60, "lambda": 0.08 },
+      "maintenance_shutdown": { "beta": 0.20, "lambda": 0.10 },
+      "public_transport_strike": { "beta": 0.55, "lambda": 0.12 }
+    },
+    "Leisure": {
+      "tourist_season": { "beta": 0.40, "lambda": 0.10 },
+      "sports_event": { "beta": 0.45, "lambda": 0.12 },
+      "cultural_festival": { "beta": 0.35, "lambda": 0.10 }
+    },
+    "Mixed": {
+      "market_fair": { "beta": 0.30, "lambda": 0.08 },
+      "civic_event": { "beta": 0.25, "lambda": 0.07 },
+      "urban_expo": { "beta": 0.20, "lambda": 0.09 }
+    },
+    "Historic": {
+      "heritage_festival": { "beta": 0.20, "lambda": 0.10 },
+      "restoration_event": { "beta": -0.10, "lambda": 0.05 },
+      "archaeological_anniversary": { "beta": 0.15, "lambda": 0.08 }
+    }
+  },
   "global_events": {
-    "offer": { "gamma": 0.30, "lambda": 0.10 },
     "protest": { "gamma": 0.80, "lambda": 0.15 },
     "festival": { "gamma": 0.60, "lambda": 0.10 },
-    "season": { "gamma": 0.20, "lambda": 0.05 },
     "public_holiday": { "gamma": 0.35, "lambda": 0.08 },
-    "political_rally": { "gamma": 0.75, "lambda": 0.12 },
-    "sports_event": { "gamma": 0.55, "lambda": 0.10 },
     "construction": { "gamma": 0.40, "lambda": 0.20 },
     "accident": { "gamma": 1.00, "lambda": 0.25 },
     "rainfall": { "gamma": 0.50, "lambda": 0.10 },
@@ -25,23 +73,56 @@
     "security_alert": { "gamma": 0.85, "lambda": 0.15 }
   },
   "weather_adjustments": {
-    "heavy_rain": { "impact_factor": 1.2, "decay_rate": 0.10 },
-    "fog": { "impact_factor": 1.1, "decay_rate": 0.08 },
-    "extreme_heat": { "impact_factor": 1.05, "decay_rate": 0.07 }
-  },
-  "holiday_effects": {
-    "national_holiday": { "traffic_multiplier": 0.85 },
-    "festival_holiday": { "traffic_multiplier": 1.15 }
+    "heavy_rain": {
+      "impact_factor": 1.25,
+      "decay_rate": 0.12,
+      "description": "Monsoon heavy rainfall often leads to waterlogging and severe delays, especially in low-lying or poorly drained areas."
+    },
+    "fog": {
+      "impact_factor": 1.15,
+      "decay_rate": 0.10,
+      "description": "Dense fog during winter mornings significantly reduces visibility, causing drivers to slow down considerably."
+    },
+    "extreme_heat": {
+      "impact_factor": 1.10,
+      "decay_rate": 0.08,
+      "description": "Intense summer heat (especially in May and June) can lead to vehicle overheating and driver fatigue, slightly increasing travel times."
+    },
+    "smog": {
+      "impact_factor": 1.20,
+      "decay_rate": 0.09,
+      "description": "Elevated pollution levels during winter months reduce road capacity and affect driver alertness, leading to increased congestion."
+    }
   },
   "time_of_day": {
     "peak_hours": {
-      "morning": { "start": "07:00", "end": "10:00", "multiplier": 1.3 },
-      "evening": { "start": "17:00", "end": "20:00", "multiplier": 1.4 }
+      "morning": {
+        "start": "07:00",
+        "end": "10:00",
+        "multiplier": 1.35,
+        "description": "The morning rush is driven by school and office commutes along with market openings."
+      },
+      "evening": {
+        "start": "17:00",
+        "end": "20:00",
+        "multiplier": 1.45,
+        "description": "Evening peak hours see a high volume of commuters returning home, compounded by commercial traffic."
+      }
     },
-    "off_peak": { "multiplier": 0.8 }
+    "lunch_peak": {
+      "start": "12:00",
+      "end": "14:00",
+      "multiplier": 1.1,
+      "description": "A moderate surge in traffic around commercial areas and food courts during lunch hours."
+    },
+    "off_peak": {
+      "multiplier": 0.85,
+      "description": "Reduced traffic volumes during mid-day (outside lunch hours) and late night hours."
+    }
   },
   "incident_probability": {
-    "minor_incident": 0.05,
-    "major_incident": 0.01
+    "minor_incident": 0.07,
+    "major_incident": 0.015,
+    "description": "These probabilities reflect historical data from New Delhi, where minor incidents (like fender benders or breakdowns) occur more frequently than major accidents."
   }
 }
